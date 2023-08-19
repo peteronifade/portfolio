@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home page Peter Onifade Portfolion</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <script src="./index.js"></script>
+  
+  
+
+  <div class="grid-container">
+    <div class="grid-item logo">
+      <p id="portfolio">Portfolio - <span id="owner">Peter Onifade</span></p>
+    </div>
+    <nav class="grid-item menu">
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Catalogue</a></li>
+      </ul>
+
+    </nav>
+    <div class="grid-item banner">
+      <h1 id='welcome_message'>Welcome to my portfolion</h1>
+      <p id="message_to_display">Tell me your name so that I can show you some of my works.</p>
+      <form id=form1 action="">
+        <label for="yname">Your Name: </label>
+        <input type="text" id="yname" name="yname"><br>
+        
+      </form>
+      <input type="submit" value="Submit" id="submit" name="submit" onclick="myFunction()"><br>
+
+      </div>
+
+    <div class="grid-item left-side">
+      <figure>
+        <img src="myphoto.jpeg" alt="Peter Onifade's photo">
+        <figcaption>Peter Onifade.</figcaption>
+      </figure>
+
+
+
+    </div>
+
+    <div id="portfolio-container" class="grid-item main">
+
+      <div class="main-items">
+        <h2>Static Website</h2>
+        <img src="company.png" alt="First project">
+        <h3>The technology</h3>
+        <p>Html, CSS flexbox</p>
+        
+      </div>
+
+      <div class="main-items">
+        <h2>Javascript application</h2>
+
+        <img src="mixedmessages.png" alt="Second project">
+        <h2>The technology</h2>
+        <p>Javascript</p>
+      </div>
+
+      <div class="main-items">
+        <h2>Portfolio</h2>
+        <img src="portfolio.png" alt="Third project">
+        <h2>The technology</h2>
+        
+        <p>Html, CSS Grid, Javascript</p>
+      </div>
+
+    </div>
+
+
+    <div class="grid-item footer"> 
+      
+    <p>Phone <a href="tel:00000000000">(000) 000 0000</a></p>
+    <p>Email <a href="mailto:onifade@yahoo.com">p.o.onifade@gmail.com</a></p>
+    <p>&copy Peter Onifade</p>
+    </div>
+  </div>
+
+
+
+</html>
